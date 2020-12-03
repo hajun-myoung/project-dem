@@ -19,7 +19,8 @@ This repository is created for saving the process and result of D.E.M.
 1. 이제 제출하세요!
     - 마치 정말 과제를 힘들게 다 끝낸 것 처럼 메일 작성하는 것 잊지 마시구요.
 1. *일단은* 제출기한이 연장되었습니다. 이제 편하게 롤이나 한 판 돌리죠!
-  
+
+ENG)  
 1. Access the D.E.M. site. (not maked yet)
 1. Enter the file name to be submitted, including the extension. (`example: report.docs, final_real_final.pptx`)
 1. Enter the file size of it.
