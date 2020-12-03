@@ -3,7 +3,7 @@
 This repository is created for saving the process and result of D.E.M.  
   
 **중요한 사실 하나만 적어놓을게요. 이 프로젝트는 [과제 제출기한 연장 프로그램](http://homework.lkl.kr/)으로부터 영감을 받아 시작되었어요.**  
-**Here is a important thing. This project is inspired by [assignment deadline extension program](http://homework.lkl.kr/).**
+**Here is an important thing. This project is inspired by [assignment deadline extension program](http://homework.lkl.kr/).**
 
 ## what is D.E.M.? | D.E.M 이 뭐죠?
 'D.E.M.'은 Deadline Extension Machine(제출기한 연장기)를 뜻해요. 이 간단한 머신은 사용자가 원하는 크기의 **깨진** 파일을 만들어주죠.  
