@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     dem.onclick = download;
 })
 
-// 다운로드 버튼을 누르면 실행되는 함수.
-// original from <javascript.info>
+
 function download() {
 
     function randomString(fileSize) {
@@ -17,11 +16,34 @@ function download() {
 
         let randomNum = timeNum % 256;
         // console.log(randomNum);
+
         for (let idx = 0; idx < fileSize; idx++) {
-            contents.push(randomNum);
-            if (idx % 2 == 0) randomNum = randomNum * 512793 % 256;
-            else randomNum = ((randomNum + 3) * 209 % 128) + 74;
-            console.log(idx + ": " + randomNum);
+            if (idx % 17 == 0) {
+                randomNum = randomNum * 513487 % 75;
+                contents.push(randomNum);
+            }
+
+            else {
+                randomNum = Math.floor(Math.random() * 4) + 234;
+                contents.push(randomNum);
+
+                if (randomNum = 234) {
+                    randomNum = Math.floor(Math.random() * 15) + 176;
+                    contents.push(randomNum);
+                    idx++;
+                }
+                else {
+                    randomNum = Math.floor(Math.random() * 64) + 128;
+                    contents.push(randomNum);
+                    idx++;
+                }
+
+                randomNum = randomNum * 152486 % 64 + 128;
+                contents.push(randomNum);
+                idx++;
+            }
+
+            // console.log(idx + ": " + randomNum);
         }
     }
 
@@ -33,7 +55,7 @@ function download() {
     link.download = document.getElementById('fileName').value;
 
     // ↓ blob 구성하고, 다운로드시키는 코드
-    let blob = new Blob([new Uint16Array(contents)], {
+    let blob = new Blob([new Uint8Array(contents)], {
         type: 'text / plain'
     });
 
