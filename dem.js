@@ -19,11 +19,9 @@ function download() {
         // console.log(randomNum);
         for (let idx = 0; idx < fileSize; idx++) {
             contents.push(randomNum);
-            randomNum = randomNum * 512795 % 256;
-            while (randomNum == 0) {
-                randomNum = date.getMilliseconds();
-            }
-            // console.log(idx + ": " + randomNum);
+            if (idx % 2 == 0) randomNum = randomNum * 512793 % 256;
+            else randomNum = ((randomNum + 3) * 209 % 128) + 74;
+            console.log(idx + ": " + randomNum);
         }
     }
 
