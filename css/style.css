@@ -96,3 +96,9 @@ body{
     width: 300px;
     margin: auto;
 }
+
+#d_warning{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
