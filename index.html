@@ -4,15 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>D.E.M.</title>
 </head>
 
 <body>
     <script src="dem.js"></script>
-    파일 이름을 입력해주세요: <input id="fileName" type="text"><br>
-    파일 용량을 입력해주세요: <input id="fileSize" type="text"><br>
-    <button id="download">Download it!</button>
-    <!-- 가장 기본적인 기능들만 완료. -->
+
+    <div id="d_headline"></div>
+
+    <div id="d_title">
+        <img src="src/img/title.png" style="width:35%;">
+    </div>
+
+    <div id="d_contact">
+        <a href="https://github.com/hajun-myoung/" target="_blank">
+            <img src="src/img/contact.png" style="width:150px;">
+        </a>
+    </div>
+
+    <div id="d_contents">
+        <div id="d_header1"># Introduction | 소개</div><br>
+        <div id="main_text">
+            D.E.M. 은 Deadline Extension Machine, 제출기한 연장기입니다.<br>
+            오늘도 과거의 게으름을 후회하며 과제를 제출할 위기에 놓인 당신을 위해 만들어졌죠 >_0<br>
+            <br>아, 이 머신은 원래 <a href="https://homework.lkl.kr">과제 제출기한 연장 프로그램</a>에서 출발했어요.<br>
+            해당 프로그램을 보고, 공부 반 재미 반으로 만들어졌답니다.
+        </div>
+
+        <br>
+        <div id="d_header1"># Usage | 사용법</div>
+        <div id="main_text">
+            <ul>
+                <li>제출할 파일 이름을 확장자를 포함해 입력하세요. (예: 보고서.hwp, 마지막_진짜_라스트.pptx)</li>
+                <li>제출할 파일의 용량을 정해주세요.</li>
+                <li>다운로드하세요.<ul>
+                        <li>다운받은 파일의 용량과, 확장자가 의도한 대로 구성되었는지 확인하세요.
+                        <li>정상적으로 읽히지 <b>않는지도</b> 꼭 확인하세요.</li>
+                    </ul>
+                </li>
+                </li>
+                <li>제출하세요!
+                    <ul>
+                        <li>마치 정말 과제를 힘들게 다 끝낸 것 처럼 메일 작성하는 것 잊지 마시구요.</li>
+                    </ul>
+                </li>
+            </ul>
+            <br>자, 이제 제출기한이 연장되었습니다. <b><i>적어도 파일이 깨졌다는 연락</i></b>이 올 때 까지는요.<br>
+        </div>
+    </div>
+
+    <div id="d_center_logo">
+        <img src="src/img/logo.png" style="width: 25%; height: auto;">
+    </div>
+
+    <div id="d_input">
+        <img src="src/img/input_name.png" style="width: 320px"><br>
+        <input id="fileName" type="text" placeholder="최종.pptx"><br>
+
+        <br><br>
+        <img src="src/img/input_size.png" style="width: 320px"><br>
+        <table id="t_sizeinput">
+            <tr>
+                <td>
+                    <input id="fileSize" type="text" placeholder="50">
+                </td>
+                <td>
+                    <div id="d_unit">
+                        <input id="unit" type="radio" name="unit" value="Byte">
+                        <label for="Byte">Byte</label><br>
+
+                        <input id="unit" type="radio" name="unit" value="KB">
+                        <label for="KB">KB(추천)</label><br>
+
+                        <input id="unit" type="radio" name="unit" value="MB">
+                        <label for="MB">MB</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+        파일의 용량이 클수록, 다운로드까지 오래 걸립니다.<br>
+        음...저는 다운로드 대화상자가 뜨기까지 10KB당 0.8초 정도 걸렸어요.<br><br>
+        <button id="download">과제받아라! (클릭해서 다운로드)</button>
+    </div>
 </body>
 
 </html>

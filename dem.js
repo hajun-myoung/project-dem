@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function download() {
 
+    function unit_check() {
+        let unit_length = document.getElementsByName("unit").length;
+
+        for (let i = 0; i < unit_length; i++) {
+            if (document.getElementsByName("unit")[i].checked == true) {
+                unit = document.getElementsByName("unit")[i].value;
+            }
+        }
+    }
+
     function randomString(fileSize) {
         let date = new Date();
         let timeNum = date.getSeconds() * 100 + date.getMilliseconds();
@@ -49,7 +59,12 @@ function download() {
 
     let contents = [];
     let fileSize = document.getElementById('fileSize').value;
-    randomString(fileSize);
+    let unit;
+    unit_check();
+
+    if (unit == 'KB') randomString(fileSize * 1024);
+    else if (unit == 'MB') randomString(fileSize * 1024 * 1024);
+    else randomString(fileSize);
 
     let link = document.createElement('a');
     link.download = document.getElementById('fileName').value;

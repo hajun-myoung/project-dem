@@ -1,0 +1,98 @@
+body{
+    background-color: Lavender;
+}
+
+#d_headline{
+    position: absolute;
+    width: 99%;
+    height: 10px;
+    top: 8%;
+    background-color: Black;
+}
+
+#d_contents{
+    position: absolute;
+    width:auto;
+    padding: 10px;
+    border: 1px black solid;
+    left: 2%; 
+    top:15%;
+    border: 0px white solid;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+#d_center_logo{
+    position: absolute;
+    left: 50%;
+    top:20%;
+    margin-left:-75px;
+    margin-top:-130px;
+}
+
+#d_title{
+    position: absolute;
+    top: 20%;
+    margin-left: -1%;
+    margin-top: -10%;
+}
+
+#d_contact{
+    position: absolute;
+    left:100%;
+    margin-left:-150px;
+}
+
+#d_header1{
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+#fileName{
+    background-color: lavender;
+    border: 0px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#fileSize{
+    background-color: lavender;
+    border: 0px;
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    left:300px;
+}
+
+#download{
+    background-color: bisque;
+    border: 1px black solid;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+#d_input{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 720px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: azure;
+    text-align: center;
+}
+
+#d_unit{
+    text-align: left;
+}
+
+#t_sizeinput{
+    width: 300px;
+    margin: auto;
+}
