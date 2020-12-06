@@ -10,7 +10,7 @@ This repository is created for saving the process and result of D.E.M.
 'D.E.M.' means 'Deadline Extension Machine'. It generates a crashed file for an extension of your deadline for an assignment.
 
 ## Usage | 사용법
-1. D.E.M. 사이트에 접속하세요 (아직 안 만들어졌어요.)
+1. [D.E.M. 사이트](https://hajun-myoung.github.io/project-dem/)에 접속하세요.
 1. 제출할 파일 이름을 확장자를 포함해 입력하세요. (`예: 보고서.hwp, 마지막_진짜_라스트.pptx`)
 1. 제출할 파일의 용량을 정해주세요.
 1. 다운로드하세요.
@@ -21,7 +21,7 @@ This repository is created for saving the process and result of D.E.M.
 1. *일단은* 제출기한이 연장되었습니다. 이제 편하게 롤이나 한 판 돌리죠!
 
 ENG)  
-1. Access the D.E.M. site. (not maked yet)
+1. Access the [D.E.M. site.](https://hajun-myoung.github.io/project-dem/)
 1. Enter the file name to be submitted, including the extension. (`example: report.docs, final_real_final.pptx`)
 1. Enter the file size of it.
 1. Download it.
