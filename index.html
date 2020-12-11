@@ -36,18 +36,6 @@
 <body>
     <script src="dem.js"></script>
 
-    <div id="d_headline"></div>
-
-    <div id="d_title">
-        <img src="src/img/title.png" style="width:575px; height: auto;">
-    </div>
-
-    <div id="d_contact">
-        <a href="https://github.com/hajun-myoung/" target="_blank">
-            <img src="src/img/contact.png" style="width:200px; height:auto;">
-        </a>
-    </div>
-
     <div id="d_contents">
         <div id="d_header1"># Introduction | 소개</div><br>
         <div id="main_text">
@@ -111,12 +99,27 @@
         <button id="download">과제받아라! (클릭해서 다운로드)</button>
     </div>
 
-    <div id="d_center_logo">
-        <img src="src/img/logo.png" style="width: 130px; height: auto;">
+    <!-- 헤더={타이블(좌상단), 경고배너, 깃허브 컨택이미지} -->
+    <div id="d_header">
+        <div id="d_title">
+            <img src="src/img/title.png" style="width:100%; position: relative; top: 50%; transform: translateY(-50%);">
+        </div>
+
+        <div id="d_warning">
+            <img src="src/img/warning.png"
+                style="width: 100%; position: relative; top: 50%; transform: translateY(-50%);">
+        </div>
+
+        <div id="d_contact">
+            <a href="https://github.com/hajun-myoung/" target="_blank">
+                <img src="src/img/contact.png"
+                    style="width: 100%; position: relative; top: 50%; transform: translateY(-50%);">
+            </a>
+        </div>
     </div>
 
-    <div id="d_warning">
-        <img src="src/img/warning.png" style="width: 350px;">
+    <div id="d_center_logo">
+        <img src="src/img/logo.png" style="width: 130px; height: auto;">
     </div>
 
     <div id="d_footer">
