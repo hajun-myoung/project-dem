@@ -87,6 +87,13 @@ The most important thing in doing assignments is the integrity we don't have!
 - footer 완성
     - 최근 업데이트 로그를 사이트에 노출: *당초 계획과 달리 업데이트 로그 페이지(이 페이지)로 연결하는 링크를 기재함.*
 
+### Dec 11, 2020
+- thumbnail 수정: 카카오톡에서 미리보기가 짤리는 문제 해결
+- 반응형 header / footer 완성
+    - 위치, 크기를 %로 조정
+    - `position: realtive` 부여
+    - body padding, margin 조정
+
 ### Will update these: | 앞으로 예정된 업데이드:
 - 모든 이미지, div영역의 위치, 내용을 이루는 글자의 크기를 반응형으로 바꿔보기
 - 모바일에서 사용할 수 있도록 모바일 친화적인 환경 구성
