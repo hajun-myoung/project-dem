@@ -70,6 +70,7 @@ body{
     border: 0px;
     background-color: azure;
     border-radius: 10px;
+    min-height: 468px;
 }
 
 #d_header1{
@@ -115,6 +116,7 @@ body{
     border-radius: 5px;
     background-color: azure;
     text-align: center;
+    min-height: 468px;
 }
 
 #d_unit{
@@ -143,7 +145,7 @@ body{
     margin: 0;
     font-size: 85%;
     display: inline-block;
-    background-color: #D3D3D3;
+    background-color: #DADADA;
     border-radius: 6px;
 }
 
