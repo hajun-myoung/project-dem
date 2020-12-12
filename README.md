@@ -88,11 +88,18 @@ The most important thing in doing assignments is the integrity we don't have!
     - 최근 업데이트 로그를 사이트에 노출: *당초 계획과 달리 업데이트 로그 페이지(이 페이지)로 연결하는 링크를 기재함.*
 
 ### Dec 11, 2020
-- thumbnail 수정: 카카오톡에서 미리보기가 짤리는 문제 해결
+- thumbnail 수정: 카카오톡에서 미리보기가 짤리는 문제 해결 `해결되지 않음`
 - 반응형 header / footer 완성
     - 위치, 크기를 %로 조정
     - `position: realtive` 부여
     - body padding, margin 조정
+
+### Dec 12, 2020
+- thumbnail 재수정: 카카오톡 미리보기 잘림 문제가 해결되지 않아 다시 시도함.
+- 반응성 관리
+    - central logo를 header div 안에 포함시키고, 반응성을 추가
+    - contents box들에게 반응성을 추가
+    - **상위 항목들의 경우, 창이 작아질 때 반응성이 매끄럽지 않음. 지속적인 수정 필요.**
 
 ### Will update these: | 앞으로 예정된 업데이드:
 - 모든 이미지, div영역의 위치, 내용을 이루는 글자의 크기를 반응형으로 바꿔보기
