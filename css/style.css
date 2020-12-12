@@ -19,6 +19,7 @@ body{
     margin: 0px;
     min-height: 20px;
     border-bottom: 5px black solid;
+    background-color: lavender;
 }
 
 #d_title{
@@ -51,23 +52,24 @@ body{
     padding: 0px;
 }
 
-#d_contents{
-    position: absolute;
-    width: 47%;
-    padding: 10px;
-    left: 1%; 
-    top: 120px;
-    border: 0px white solid;
-    background-color: azure;
-    border-radius: 10px;
-}
 
 #d_center_logo{
     position: absolute;
+    width: 8%;
     left: 50%;
-    top: 65px;
-    margin-left: -65px;
-    margin-top: -60px;
+    margin-left: -4%;
+    top: 10%;
+}
+
+#d_contents{
+    position: absolute;
+    width: 47.5%;
+    padding: 10px;
+    left: 1%; 
+    top: 14%;
+    border: 0px;
+    background-color: azure;
+    border-radius: 10px;
 }
 
 #d_header1{
@@ -106,8 +108,8 @@ body{
 
 #d_input{
     position: absolute;
-    left: 51%;
-    top: 120px;
+    left: 50.5%;
+    top: 14%;
     width: 47%;
     padding: 10px;
     border-radius: 5px;
