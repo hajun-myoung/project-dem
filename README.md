@@ -2,9 +2,6 @@
 이 레포지토리는 D.E.M.을 만드는 과정과, 그 결과를 담기 위한 것입니다.  
 This repository is created for saving the process and result of D.E.M.  
 
-**중요한 사실 하나만 적어놓을게요. 이 프로젝트는 [과제 제출기한 연장 프로그램](http://homework.lkl.kr/)으로부터 영감을 받아 시작되었어요.**  
-**Here is an important thing. This project is inspired by [assignment deadline extension program](http://homework.lkl.kr/).**
-
 ## what is D.E.M.? | D.E.M 이 뭐죠?
 'D.E.M.'은 Deadline Extension Machine(제출기한 연장기)를 뜻해요. 이 간단한 머신은 사용자가 원하는 크기의 **깨진** 파일을 만들어주죠.  
 'D.E.M.' means 'Deadline Extension Machine'. It generates a crashed file for an extension of your deadline for an assignment.
@@ -106,16 +103,23 @@ The most important thing in doing assignments is the integrity we don't have!
 - `contetns div`, `input div`의 `min-height` 설정 : 기본적으로 height가 약간 차이나는 불-편함 수정
 - footer: #d_example의 배경색상을 조금 밝게 조정: #D3D3D3 > #DADADA
 
-### Will update these: | 앞으로 예정된 업데이트:
+### To-do list
 - div영역의 위치, 내용을 이루는 글자의 크기를 반응형으로 바꿔보기
     - 브라우저의 크기(width)가 특정 값 이하로 줄어들면 div의 위치를 다르게 부여하기.
         - 횡 배열(2x1)에서 종 배열(1x2)로
 - 모바일에서 사용할 수 있도록 모바일 친화적인 환경 구성
-- 과제 유형 및 선택기 생성
-    - 빽빽한 뷁어로 구성된 현재의 모드 외 타 모드 생성, 제공
-        - 개행문자가 군데군데 포함된 모드
-        - 한글+한자보다 영어+여타 문자로 이루어지는 모드
-    - 특정 정보를 더할 수 있는 add-on 설계
-        - 제출자 이름을 마지막에 추가할 수 있는 기능
-        - 작성일을 마지막에 추가할 수 있는 기능
-        - 제목을 파일 처음에 추가할 수 있는 기능
+
+### Will update these: | 앞으로 예정된 업데이트:
+- 과제 유형의 생성과 선택기 제공
+    - 현재 `빽빽한 뷁어 과제`만 제공하는 한계점을 고려, 다양한 바리에이션을 만들어 제공:
+        - 개행문자가 군데군데 포함된 폼
+        - 한글+한자보다 영어+여타 문자로 이루어지는 폼
+    - 특정 정보를 더할 수 있는 `insert-plz` 기능의 지원
+        - 사용자가 원하는 문구를, 특정 위치(선택지 제공)에 삽입할 수 있도록
+            - 예) 제출자 이름 및 소속을 과제 마지막에 삽입
+            - 예) 작성일을 마지막에 삽입
+            - 예) 제목을 파일 처음에 삽입
+
+## 레퍼런스 | Reference
+이 프로젝트는 [과제 제출기한 연장 프로그램](http://homework.lkl.kr/)으로부터 영감을 받아 시작되었어요.  
+Here is an important thing. This project is inspired by [assignment deadline extension program](http://homework.lkl.kr/).
